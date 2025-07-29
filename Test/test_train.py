@@ -1,3 +1,4 @@
+import pytest
 from SRC.train import train_model
 def test_accuracy():
     acc=train_model()
